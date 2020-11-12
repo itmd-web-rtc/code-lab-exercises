@@ -100,8 +100,8 @@
  */
  /* eslint-env node */
 'use strict';
-var logging = require('../utils.js').log;
-var browserDetails = require('../utils.js').browserDetails;
+var logging = require('../utils.js.js').log;
+var browserDetails = require('../utils.js.js').browserDetails;
 
 var chromeShim = {
   shimOnTrack: function() {
@@ -345,7 +345,7 @@ module.exports = {
  */
  /* eslint-env node */
 'use strict';
-var logging = require('../utils.js').log;
+var logging = require('../utils.js.js').log;
 
 // Expose public methods.
 module.exports = function() {
